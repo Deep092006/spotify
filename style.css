@@ -6,15 +6,16 @@ body{
     padding: 0;
 }
 .main{
-    background-color: black;
+    background-color: green;
     width: 100vw;
     height: 100vh;
     display: flex;
 }
 .sidebar{
-background-color: red;
+
 width: 264px;
 border-radius: 1rem;
+background-color: black;
 
 
 }
@@ -31,4 +32,33 @@ border-radius: 1rem;
     bottom: 0px;
     height: 66px;
     width: 100%;
+}
+.nav{
+height: 76px;
+display: flex;
+flex-direction: column;
+padding: 8px 25px;
+
+background-color: #121212;
+}
+.nav-option{
+    opacity: 0.6;
+    line-height: 2.2rem;
+
+
+}
+.nav-option i{
+
+    line-height: 1.4rem;
+    color: white;
+
+}
+
+a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 1.2rem; 
+    color: white;
+    
+
 }
