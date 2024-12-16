@@ -1,0 +1,34 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.sidebar{
+background-color: red;
+width: 264px;
+border-radius: 1rem;
+
+
+}
+.mainbar{
+    flex: 1;
+    background-color: yellow;
+    border-radius: 1rem;
+}
+.musicplayer{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0px;
+    height: 66px;
+    width: 100%;
+}
